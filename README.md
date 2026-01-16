@@ -3,7 +3,7 @@
 
 ```bash
 # Unzip and enter project folder
-unzip SmartPark_23f3004186.zip
+unzip SmartPark.zip
 cd SmartPark
 
 # ---------------------------
