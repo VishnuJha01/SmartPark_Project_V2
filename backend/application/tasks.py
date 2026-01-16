@@ -72,10 +72,11 @@ def monthly_parking_report():
 @shared_task(ignore_results=False, name="notify_user_booking")
 def notify_user_booking(username, lot_name):
     text = f"Hi {username}, your parking spot at {lot_name} has been successfully booked. Thank you for using SmartPark!"
-    webhook_url = "https://chat.googleapis.com/v1/spaces/AAQA7rWjjBI/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=5Ny4HP4xf7gx2mmhdfg4Y9-wTWA5xO3cYg2rawMUmmY"
+    webhook_url = "put your own api key"
 
     try:
         response = requests.post(webhook_url, json={"text": text})
         return f"Notification sent successfully (status code: {response.status_code})"
     except Exception as e:
         return f"Failed to send notification: {str(e)}"
+
