@@ -1,4 +1,4 @@
-# 23F3004186_SmartPark_V2
+# SmartPark_V2
 ## SmartPark Project - WSL Setup Commands
 
 ```bash
