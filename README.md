@@ -67,7 +67,7 @@ Managing parking lots manually is inefficient and error-prone. This system provi
 
 ```bash
 # Unzip and enter project folder
-unzip SmartPark_23f3004186.zip
+SmartPark_23f3004186.zip
 cd SmartPark
 
 # ---------------------------
