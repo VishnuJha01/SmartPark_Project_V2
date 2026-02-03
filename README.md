@@ -1,4 +1,4 @@
-#  Vehicle Parking App – V2
+#  SmartPark – Vehicle Parking App
 
 A full-stack, multi-user **4-wheeler parking management system** built using Flask and VueJS.  
 The application efficiently manages parking lots, parking spots, and vehicle reservations with role-based access for **Admin** and **User**.
