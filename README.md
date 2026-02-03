@@ -63,15 +63,6 @@ Managing parking lots manually is inefficient and error-prone. This system provi
 
 ---
 
-##  Database Design
-
-The system uses the following core entities:
-
-- **User** – Stores admin and user accounts with authentication details
-- **ParkingLot** – Stores parking lot details such as name, address, price, and capacity
-- **ParkingSpot** – Represents individual parking spots and their status
-- **Reservation** – Tracks parking reservations, timestamps, and cost
-
 ## SmartPark Project - WSL Setup Commands
 
 ```bash
